@@ -6,3 +6,10 @@
     box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
     border-radius: 20px;
 }
+.weekdays-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px 0;
+}
