@@ -1,0 +1,15 @@
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3vh;
+}
+
+.nav-bar p {
+    margin-right: 5%;
+}
+
+.nav-bar p:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
