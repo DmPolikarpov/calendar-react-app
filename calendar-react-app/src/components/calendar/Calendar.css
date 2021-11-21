@@ -1,6 +1,6 @@
 .calendar {
     width: 60%;
-    height: 60vh;
+    height: 70vh;
     margin: 10vh auto;
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
@@ -8,8 +8,35 @@
 }
 .weekdays-container {
     width: 90%;
+    height: 7vh;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
     padding: 10px 0;
+}
+.week-day {
+    padding-top: 2vh;
+}
+.day-zone {
+    width: 12%;
+    height: 7vh;
+    margin: 3px;
+}
+.month-container {
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.day {
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.day:hover {
+    transform: scale(1.2);
+    border-color: rgb(241, 227, 28);
 }
