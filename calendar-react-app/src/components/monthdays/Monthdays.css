@@ -1,0 +1,23 @@
+.day-zone {
+    width: 12%;
+    height: 7vh;
+    margin: 3px;
+}
+.month-container {
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.day {
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.day:hover {
+    transform: scale(1.2);
+    border-color: rgb(241, 227, 28);
+}
