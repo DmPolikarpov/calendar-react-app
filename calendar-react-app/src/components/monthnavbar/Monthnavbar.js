@@ -1,19 +1,19 @@
 import React from 'react';
-import './Monthnavbar.css';
 import constants from '../../configs/constants';
 
-let Monthnavbar = () => {
+let Monthnavbar = (props) => {
     let getMonthName = () => {
-        let month = new Date().getMonth();
+        let month;
+        let generalMonth = (new Date().getMonth() + props.monthNumber)%12;
+        if (generalMonth >= 0) {
+            month = generalMonth;
+        } else {
+            (12 - generalMonth) === 12 ? month = 0 : month = 12 + generalMonth;
+        }
+        console.log(month);
         return <h2>{ constants.months[month] }</h2>
     }
-    return (
-            <div className="month-name">
-                <h1>&#8610;</h1>
-                { getMonthName() }
-                <h1>&#8611;</h1>
-            </div>
-            )
+    return getMonthName() 
 }
 
 export default Monthnavbar;

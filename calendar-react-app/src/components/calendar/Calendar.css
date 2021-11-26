@@ -6,6 +6,24 @@
     box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
     border-radius: 20px;
 }
+.month-name {
+    width: 90%;
+    height: 5vh;
+    margin: auto;
+    padding-bottom: 1vh;
+    display: flex;
+    justify-content: space-around;
+}
+.month-name h1 {
+    cursor: pointer;
+    color: #000;
+}
+.month-name h1:hover {
+    color: rgb(241, 18, 156);
+}
+.month-name h2 {
+    padding-top: 1vh;
+}
 .weekdays-container {
     width: 90%;
     height: 7vh;
