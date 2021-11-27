@@ -10,7 +10,6 @@ let Monthnavbar = (props) => {
         } else {
             (12 - generalMonth) === 12 ? month = 0 : month = 12 + generalMonth;
         }
-        console.log(month);
         return <h2>{ constants.months[month] }</h2>
     }
     return getMonthName() 

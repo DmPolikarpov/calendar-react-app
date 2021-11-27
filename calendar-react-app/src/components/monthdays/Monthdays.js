@@ -7,7 +7,6 @@ let Monthdays = (props) => {
         let counter = 1;
         let date = new Date();
         let month = props.monthNumber;
-        console.log(month);
         let daysInMonth = new Date(date.getFullYear(), date.getMonth() + (month + 1), 0).getDate();
         let firstDay = new Date(date.getFullYear(), date.getMonth() + month, 1).getDay();
         let lastDay =  new Date(date.getFullYear(), date.getMonth() + month, daysInMonth).getDay();
