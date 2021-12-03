@@ -55,3 +55,11 @@
     background-color: #0c5705;
     color: #bef1b9;
 }
+
+.note {
+    text-align: center;
+}
+
+.required-field {
+    color: #f00a0a;
+}
