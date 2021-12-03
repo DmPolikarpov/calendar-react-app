@@ -1,0 +1,55 @@
+
+.closeWindow {
+    position: relative;
+    font-size: 3vw;
+    cursor: pointer;
+    color: #794343;
+}
+
+.closeWindow:hover {
+    font-weight: 900;
+    color: #000;   
+}
+
+.sign-form {
+    width: 70%;
+    margin: 3% auto;
+    padding: 3vh;
+    text-align: end;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px #619b5a;
+}
+
+.sign-form h1 {
+    text-align: center;
+}
+
+.sign-form form label {
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vw;
+
+}
+
+.sign-form form input {
+    width: 50%;
+    margin: 1% 10% 2% 5%;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vw;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.btnSubmit {
+    margin-right: 20%;
+    margin-top: 5vh;
+    background-color: #9ab697;
+
+}
+
+.btnSubmit:hover {
+    background-color: #0c5705;
+    color: #bef1b9;
+}
